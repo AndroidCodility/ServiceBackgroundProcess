@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Service Background Process</string>
+    <string name="applicant_name">Android Codility</string>
+    <string name="start_service">Start Service</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="info">A Service is an application component that can perform long-running operations in the background, and it does not provide a user interface. Another application component can start a service, and it continues to run in the background even if the user switches to another application. Additionally, a component can bind to a service to interact with it and even perform interprocess communication (IPC). For example, a service can handle network transactions, play music, perform file I/O, or interact with a content provider, all from the background.
+    \n\nThese are the three different types of services:
+\n\n1.Foreground:
+A foreground service performs some operation that is noticeable to the user. For example, an audio app would use a foreground service to play an audio track. Foreground services must display a Notification. Foreground services continue running even when the user is not interacting with the app.
+\n\n2.Background:
+A background service performs an operation that is not directly noticed by the user. For example, if an app used a service to compact its storage, that would usually be a background service.
+\n\n3.Bound:
+A service is bound when an application component binds to it by calling bindService(). A bound service offers a client-server interface that allows components to interact with the service, send requests, receive results, and even do so across processes with interprocess communication (IPC). A bound service runs only as long as another application component is bound to it. Multiple components can bind to the service at once, but when all of them unbind, the service is destroyed.</string>
+</resources>
